@@ -1,0 +1,31 @@
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.start-button, .reset-button, .stop-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.reset-button {
+    background-color: #ffc107;
+    color: white;
+}
+
+.stop-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.start-button:hover, .reset-button:hover, .stop-button:hover {
+    opacity: 0.8;
+}
